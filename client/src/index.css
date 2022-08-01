@@ -56,5 +56,112 @@ html, p, body {
   float: right;
   margin-right: 5vh;
   margin-top: -2vh;
+}
 
+.latest-block {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 60vh;
+  font-size: 2vh;
+  height: 3vh;
+  width: 100%;
+  border-bottom: 2px solid rgb(129, 102, 102);
+  text-align: center;
+}
+
+.discount-block {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 120vh;
+  font-size: 2vh;
+  height: 3vh;
+  width: 100%;
+  border-bottom: 2px solid rgb(129, 102, 102);
+  text-align: center;
+}
+
+.carousel {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 65vh;
+  font-size: 2vh;
+  height: 30vh;
+  width: 30vh;
+  margin-left: 5vh;
+  background-color: blue;
+  background-image: url("./Images/logindog.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-1-info {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 32vh;
+  font-size: 2vh;
+  height: 30vh;
+  width: 30vh;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+
+}
+
+h6 {
+  color: rgb(0, 0, 0);
+  font-weight: lighter;
+  text-align: center;
+  font-size: 2vh;
+  margin-top: 1vh;
+
+}
+
+h5 {
+  color: rgb(0, 0, 0);
+  font-weight: lighter;
+  width: 15vh;
+  text-align:justify;
+  text-align: left;
+  margin-left: 2vh;
+  margin-top: -3vh;
+}
+
+.view-block {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 18vh;
+  margin-top: 45vh;
+  position: absolute;
+}
+
+.stock-block {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 18vh;
+  margin-top: 41vh;
+  position: absolute;
+}
+
+.price-block {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 18vh;
+  margin-top: 37vh;
+  position: absolute;
+}
+
+.footer {
+  height: 5vh;
+  width: 100%;
+  background-color: rgb(129, 102, 102);
+  position: absolute;
+  margin-top: 150vh;
 }
