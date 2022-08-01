@@ -4,16 +4,57 @@ html, p, body {
   background-color: rgb(255, 255, 255);
 }
 
-.world {
+.nav {
   color: black;
-  height: 20vh;
-  width: 30vh;
-  background-color: blueviolet;
+  height: 6vh;
+  width: 100%;
+  border-bottom: 2px solid rgb(129, 102, 102);
+  position: absolute;
 }
 
-.world2 {
+.welcome-image {
+  height: 50vh;
+  width: 100%;
+  margin-top: 6.2vh;
+  background-image: url("./Images/logindog.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.logo {
   color: black;
-  height: 20vh;
-  width: 30vh;
-  background-color: rgb(173, 104, 104);
+  height: 5vh;
+  width: 5vh;
+  background-color: rgb(185, 153, 153);
+  border-radius: 5vh;
+  margin-left: 5vh;
+  margin-top: 0.4vh;
+  position: absolute;
+}
+
+.home {
+  margin-left: 80vh;
+  margin-top: 2vh;
+}
+
+.products {
+  margin-right: 18vh;
+  margin-left: 95vh;
+  margin-top: -2vh;
+
+}
+
+.login {
+  float: right;
+  margin-right: 18vh;
+  margin-top: -2vh;
+
+}
+
+.cart {
+  float: right;
+  margin-right: 5vh;
+  margin-top: -2vh;
+
 }

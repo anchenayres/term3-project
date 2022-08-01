@@ -1,8 +1,7 @@
 import React from "react";
 
 
-
-const Home = () => {
+const Products = () => {
 
     return (
     <>
@@ -13,12 +12,12 @@ const Home = () => {
         <div className="products"><a href="/Products">Products</a></div>
         <div className="login"><a href="/">Sign In</a></div>
         <div className="cart"><a href="/Cart">Cart</a></div>
-    </div>
 
-    <div className="welcome-image"></div>
+
+    </div>
 
     </>
     )
 };
 
-export default Home;
+export default Products;

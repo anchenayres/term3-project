@@ -1,0 +1,89 @@
+.main-block {
+    color: black;
+    height: 50vh;
+    width: 80vh;
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 18vh;
+    background-color: blueviolet;
+}
+
+.login-image {
+    height: 100vh;
+    width: 90vh;
+    float: right;
+    background-image: url("./Images/logindog.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-button {
+    height: 4vh;
+    width: 15vh;
+    background-color: rgb(251, 247, 255);
+    border-radius: 5vh;
+    border-style: none;
+    margin-left: 32vh;
+    margin-top: 43vh;
+}
+
+.fill1 {
+    height: 4vh;
+    width: 45vh;
+    background-color: rgb(224, 236, 143);
+    border-radius: 5vh;
+    border-style: none;
+    margin-left: 18vh;
+    margin-top: 20.5vh;
+    position: absolute;
+}
+
+.fill2 {
+    height: 4vh;
+    width: 45vh;
+    background-color: rgb(237, 167, 248);
+    border-radius: 5vh;
+    border-style: none;
+    margin-left: 18vh;
+    margin-top: 32vh;
+    position: absolute;
+}
+
+h1 {
+    margin-left: 33vh;
+    font-size: 4.5vh;
+    position: absolute;
+}
+
+h2 {
+    margin-left: 18vh;
+    font-size: 20px;
+    margin-top: 10vh;
+    position: absolute;
+}
+
+h3 {
+    margin-left: 18vh;
+    font-size: 15px;
+    margin-top: 16.5vh;
+    position: absolute;
+}
+
+h4 {
+    margin-left: 18vh;
+    font-size: 15px;
+    margin-top: 28vh;
+    position: absolute;
+}
+
+.nav a, ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+  }
+  a:hover {
+    color: rgb(225, 126, 225);
+  }
