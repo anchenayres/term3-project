@@ -12,7 +12,7 @@ html, p, body {
   position: absolute;
 }
 
-.welcome-image {
+.slide1 {
   height: 50vh;
   width: 100%;
   margin-top: 6.2vh;
@@ -20,6 +20,20 @@ html, p, body {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-top: 80vh;
+  margin: 0 2px;
+  background-color: rgb(226, 6, 6);
+  border-radius: 50%;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
 }
 
 .logo {

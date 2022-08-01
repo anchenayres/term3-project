@@ -15,7 +15,33 @@ const Home = () => {
         <div className="cart"><a href="/Cart">Cart</a></div>
     </div>
 
-    <div className="welcome-image"></div>
+    <div className="welcome-image">
+        <div class="slide1"></div>
+        <div class="slide2"></div>
+        <div class="slide3"></div>
+    </div>
+    <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     <div className="latest-block">Latest Products</div>
 
     <div className="carousel">
