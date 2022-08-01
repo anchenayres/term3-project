@@ -1,0 +1,113 @@
+html, p, body {
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(255, 255, 255);
+  }
+
+.welcome-image {
+    height: 50vh;
+    width: 50%;
+    margin-top: 10vh;
+    margin-left: 25%;
+    background-image: url("./Images/logindog.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.img1 {
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(246, 204, 204);
+    margin-top: 65vh;
+    margin-left: 45vh;
+    position: absolute;
+}
+
+.img2 {
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(246, 204, 204);
+    margin-top: 65vh;
+    margin-left: 83vh;
+    position: absolute;
+}
+
+.img3 {
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(246, 204, 204);
+    margin-top: 65vh;
+    margin-left: 120vh;
+    position: absolute;
+}
+
+.product-des {
+    height: 25vh;
+    width: 58vh;
+    background-color: rgb(240, 219, 219);
+    position: absolute;
+    margin-top: 100vh;
+    margin-left: 45vh;
+}
+
+.size-chart {
+    height: 25vh;
+    width: 40vh;
+    background-color: rgb(250, 238, 238);
+    position: absolute;
+    margin-top: 100vh;
+    margin-left: 110vh;
+}
+
+.fabric-drop {
+    height: 3vh;
+    width: 15vh;
+    border-radius: 5vh;
+    border-style: none;
+    background-color: rgb(150, 117, 117);
+    position: absolute;
+    margin-top: 130vh;
+    margin-left: 45vh;
+}
+
+.colour-drop {
+    height: 3vh;
+    width: 15vh;
+    border-radius: 5vh;
+    border-style: none;
+    background-color: rgb(150, 117, 117);
+    position: absolute;
+    margin-top: 130vh;
+    margin-left: 65vh;
+}
+
+.size-drop {
+    height: 3vh;
+    width: 15vh;
+    border-radius: 5vh;
+    border-style: none;
+    background-color: rgb(150, 117, 117);
+    position: absolute;
+    margin-top: 130vh;
+    margin-left: 85vh;
+}
+
+.quantity-drop {
+    height: 3vh;
+    width: 15vh;
+    border-radius: 5vh;
+    border-style: none;
+    background-color: rgb(150, 117, 117);
+    position: absolute;
+    margin-top: 130vh;
+    margin-left: 105vh;
+}
+
+.size-chart {
+    background-image: url("./Images/sizingChart.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+}
