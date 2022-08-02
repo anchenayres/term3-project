@@ -1,0 +1,56 @@
+.list {
+    height: 50vh;
+    width: 115vh;
+    background-color: antiquewhite;
+    margin-top: 10vh;
+    position: absolute;
+    margin-left: 40vh;
+}
+
+.total-price {
+    height: 7vh;
+    width: 115vh;
+    background-color: rgb(114, 97, 77);
+    margin-top: 60vh;
+    position: absolute;
+    margin-left: 40vh;
+}
+
+.list-blocks {
+    height: 5vh;
+    margin-top: 3vh;
+    width: 114.5vh;
+    border: solid 2px rgb(81, 65, 44);
+    position: absolute;
+}
+
+p2 {
+    margin: 0 6vh;
+    font-weight:  bold;
+}
+p1 {
+    margin:  6.5vh;
+    margin-top: 1.5vh;
+    display: inline-block;
+}
+
+
+.list-button1 {
+    height: 3vh;
+    width: 8vh;
+    background-color: rgb(200, 188, 172);
+    font-size: 15px;
+    margin-top: -9vh;
+    position: absolute;
+    margin-left: 105vh;
+}
+
+.list-button2 {
+    height: 3vh;
+    width: 8vh;
+    background-color: rgb(200, 188, 172);
+    font-size: 15px;
+    margin-top: -8vh;
+    position: absolute;
+    margin-left: 105vh;
+}
