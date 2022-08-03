@@ -54,12 +54,14 @@ const Checkout = () => {
         <p3>Postal Code: 0159</p3>
         <p3>Country: Something</p3>
         <p3>Province: Something</p3>
+        <br></br>
 
         <p3><b>Shipping Address</b></p3>
         <p3>Postal Code: 0159</p3>
         <p3>Country: Something</p3>
         <p3>Province: Something</p3>
         <p3>Street: Something</p3>
+        <br></br>
 
         <p3><b>Order</b></p3>
         <p3>Order Number: 52V89C89B</p3>
@@ -70,7 +72,7 @@ const Checkout = () => {
 
 
 
-        <div className="footer"></div>
+        <div className="footercheckout"></div>
 
     </>
     )

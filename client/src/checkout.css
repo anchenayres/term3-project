@@ -1,5 +1,14 @@
 p3 {
-    margin:  1vh;
-    margin-top: 2vh;
-    display: flex;
+    margin-top: 1vh;
+    position: relative;
+    display: block;
+    top: 85vh;
+    left: 40vh;
 }
+.footercheckout {
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(129, 102, 102);
+    position: absolute;
+    margin-top: 100vh;
+  }

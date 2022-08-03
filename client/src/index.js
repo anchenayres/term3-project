@@ -6,6 +6,8 @@ import './individual.css';
 import './individual.css';
 import './cart.css';
 import './checkout.css';
+import './products.css';
+
 
 
 
