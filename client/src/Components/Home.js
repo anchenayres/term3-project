@@ -49,6 +49,14 @@ const Home = () => {
         <button className="view-block"><a href="/Individual">View</a></button>
         <button className="stock-block">In Stock: 5</button>
         <button className="price-block">R1069.00</button>
+
+        <div className="carousel-2">Now Only R599.00</div>
+        <div className="carousel-2-info">
+            <h6>Smart Collar</h6>
+            <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
+        <button className="view-block2"><a href="/Individual">View</a></button>
+        <button className="stock-block2">In Stock: 5</button>
+        <button className="price-block2">R1069.00</button>
     </div>
 
     <div className="discount-block">Discounted Products</div>

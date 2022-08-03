@@ -1,16 +1,23 @@
+.topwelcome {
+    margin-top: 10vh;
+    position: absolute;
+    margin-left: 40vh;
+    font-size: 20px;
+
+}
+
 .list {
     height: 50vh;
     width: 115vh;
-    background-color: antiquewhite;
-    margin-top: 10vh;
+    margin-top: 20vh;
     position: absolute;
     margin-left: 40vh;
 }
 
 .total-price {
-    height: 7vh;
+    height: 20vh;
     width: 115vh;
-    background-color: rgb(114, 97, 77);
+    border-top: solid 2px rgb(81, 65, 44);
     margin-top: 60vh;
     position: absolute;
     margin-left: 40vh;
@@ -20,7 +27,7 @@
     height: 5vh;
     margin-top: 3vh;
     width: 114.5vh;
-    border: solid 2px rgb(81, 65, 44);
+    border-top: solid 2px rgb(81, 65, 44);
     position: absolute;
 }
 
@@ -33,12 +40,17 @@ p1 {
     margin-top: 1.5vh;
     display: inline-block;
 }
+p8 {
+    margin-left:  -20vh;
+    margin-top: 5vh;
+    position: absolute;
+}
 
 
 .list-button1 {
     height: 3vh;
     width: 8vh;
-    background-color: rgb(200, 188, 172);
+    border: solid 1px rgb(129, 98, 75);
     font-size: 15px;
     margin-top: -9vh;
     position: absolute;
@@ -48,9 +60,26 @@ p1 {
 .list-button2 {
     height: 3vh;
     width: 8vh;
-    background-color: rgb(200, 188, 172);
+    border: solid 1px rgb(129, 98, 75);
     font-size: 15px;
-    margin-top: -8vh;
+    margin-top: 1vh;
     position: absolute;
-    margin-left: 105vh;
+    margin-left: 6vh;
 }
+.list-button3 {
+    height: 3vh;
+    width: 14vh;
+    border: solid 1px rgb(129, 98, 75);
+    font-size: 15px;
+    margin-top: 1vh;
+    position: absolute;
+    margin-left: 15vh;
+}
+
+.footercart {
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(129, 102, 102);
+    position: absolute;
+    margin-top: 100vh;
+  }

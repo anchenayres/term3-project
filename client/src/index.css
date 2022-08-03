@@ -15,7 +15,7 @@ html, p, body {
 .slide1 {
   height: 50vh;
   width: 100%;
-  margin-top: 6.2vh;
+  margin-top: 3.5vh;
   background-image: url("./Images/logindog.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,7 +75,7 @@ html, p, body {
 .latest-block {
   color: rgb(0, 0, 0);
   position: absolute;
-  margin-top: 60vh;
+  margin-top: 65vh;
   font-size: 2vh;
   height: 3vh;
   width: 100%;
@@ -97,7 +97,7 @@ html, p, body {
 .carousel {
   color: rgb(0, 0, 0);
   position: absolute;
-  margin-top: 65vh;
+  margin-top: 70vh;
   font-size: 2vh;
   height: 30vh;
   width: 30vh;
@@ -107,11 +107,35 @@ html, p, body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.carousel-2 {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 55vh;
+  font-size: 2vh;
+  height: 30vh;
+  width: 30vh;
+  color: red;
+  font-size: 15px;
+  background-color: blue;
+  background-image: url("./Images/logindog.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .carousel-1-info {
   color: rgb(0, 0, 0);
   position: absolute;
   margin-top: 32vh;
+  font-size: 2vh;
+  height: 30vh;
+  width: 30vh;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+
+}
+.carousel-2-info {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 80vh;
   font-size: 2vh;
   height: 30vh;
   width: 30vh;
@@ -149,6 +173,16 @@ h5 {
   margin-top: 45vh;
   position: absolute;
 }
+.view-block2 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 18vh;
+  margin-top: 95vh;
+  position: absolute;
+}
 
 .stock-block {
   height: 3vh;
@@ -158,6 +192,16 @@ h5 {
   border-style: none;
   margin-left: 18vh;
   margin-top: 41vh;
+  position: absolute;
+}
+.stock-block2 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 18vh;
+  margin-top: 90vh;
   position: absolute;
 }
 
@@ -172,10 +216,22 @@ h5 {
   position: absolute;
 }
 
+.price-block2 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 18vh;
+  margin-top: 85vh;
+  position: absolute;
+  text-decoration: line-through;
+}
+
 .footer {
   height: 5vh;
   width: 100%;
   background-color: rgb(129, 102, 102);
   position: absolute;
-  margin-top: 150vh;
+  margin-top: 180vh;
 }

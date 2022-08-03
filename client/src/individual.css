@@ -43,7 +43,7 @@ html, p, body {
 }
 
 .product-des {
-    height: 25vh;
+    height: 60vh;
     width: 58vh;
     background-color: rgb(240, 219, 219);
     position: absolute;
@@ -63,46 +63,68 @@ html, p, body {
 .fabric-drop {
     height: 3vh;
     width: 15vh;
-    border-radius: 5vh;
-    border-style: none;
-    background-color: rgb(150, 117, 117);
+    background-color: rgb(255, 253, 253);
     position: absolute;
-    margin-top: 130vh;
-    margin-left: 45vh;
+    margin-top: 10.5vh;
+    margin-left: 1vh;
 }
 
 .colour-drop {
     height: 3vh;
     width: 15vh;
-    border-radius: 5vh;
-    border-style: none;
-    background-color: rgb(150, 117, 117);
+    background-color: rgb(255, 253, 253);
     position: absolute;
-    margin-top: 130vh;
-    margin-left: 65vh;
+    margin-top: 20vh;
+    margin-left: 1vh;
 }
+.quantity-drop {
+    height: 3vh;
+    width: 15vh;
+    background-color: rgb(255, 253, 253);
+    position: absolute;
+    margin-top: 29vh;
+    margin-left: 1vh;
+}
+.addcart-button {
+    height: 3vh;
+    width: 15vh;
+    background-color: rgb(255, 253, 253);
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 1vh;
+}
+.buy-button {
+    height: 3vh;
+    
+    width: 15vh;
+    background-color: rgb(255, 253, 253);
+    position: absolute;
+    margin-top: 45vh;
+    margin-left: 1vh;
+}
+
 
 .size-drop {
     height: 3vh;
     width: 15vh;
-    border-radius: 5vh;
-    border-style: none;
-    background-color: rgb(150, 117, 117);
+    background-color: rgb(255, 253, 253);
     position: absolute;
-    margin-top: 130vh;
-    margin-left: 85vh;
+    margin-top: 1.5vh;
+    margin-left: 1vh;
+}
+p5 {
+    margin-top: 7vh;
+    position: absolute;
+}
+p6 {
+    margin-top: 16vh;
+    position: absolute;
+}
+p7 {
+    margin-top: 25vh;
+    position: absolute;
 }
 
-.quantity-drop {
-    height: 3vh;
-    width: 15vh;
-    border-radius: 5vh;
-    border-style: none;
-    background-color: rgb(150, 117, 117);
-    position: absolute;
-    margin-top: 130vh;
-    margin-left: 105vh;
-}
 
 .size-chart {
     background-image: url("./Images/sizingChart.webp");
@@ -112,7 +134,7 @@ html, p, body {
 
 }
 
-.carousel__item {
+/* .carousel__item {
     height: 300px;
     width: 300px;
     background-color: grey;
@@ -151,4 +173,4 @@ html, p, body {
     border-radius: 5vh;
     margin: 0 2vh;
     cursor: pointer;
-}
+} */

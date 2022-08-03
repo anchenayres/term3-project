@@ -15,6 +15,7 @@ const Cart = () => {
         <div className="cart"><a href="/Cart">Cart</a></div>
     </div>
 
+    <div className="topwelcome">Your Cart</div>
         <div className="list">
             <p2>Description</p2>
                 <p2>Fabric</p2>
@@ -41,13 +42,14 @@ const Cart = () => {
         </div>
 
         <div className="total-price">
-                <p1>Shipping Fee: R18.99</p1>
-                <p1>Total: R499.00</p1>
-
+                <p1>Subtotal: R499.00</p1>
+                <p8>Tax included. Shipping calculated at checkout.</p8>
         <div className="list-button2"><a href="/Checkout">Checkout</a></div>
+        <div className="list-button3"><a href="/Products">Continue Shopping</a></div>
+
         </div>
 
-        <div className="footer"></div>
+        <div className="footercart"></div>
 
     </>
     )
