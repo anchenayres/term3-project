@@ -1,0 +1,86 @@
+.latest1-block {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 10vh;
+    font-size: 2vh;
+    height: 3vh;
+    width: 100%;
+    text-align: center;
+}
+.latest2-block {
+    border-top: 2px solid rgb(129, 102, 102);
+    position: absolute;
+    margin-top: 75vh;
+    font-size: 2vh;
+    height: 3vh;
+    padding-top: 4vh;
+    width: 100%;
+    text-align: center;
+}
+.carouselpro {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 15vh;
+    font-size: 2vh;
+    height: 30vh;
+    width: 30vh;
+    margin-left: 10vh;
+    background-color: blue;
+    background-image: url("./Images/logindog.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.carousel-pro-info {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 32vh;
+  font-size: 2vh;
+  height: 20vh;
+  width: 30vh;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+  .carousel-1-info {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 32vh;
+    font-size: 2vh;
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  .carouselpro2 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 85vh;
+    font-size: 2vh;
+    height: 30vh;
+    width: 30vh;
+    margin-left: 10vh;
+    background-color: blue;
+    background-image: url("./Images/logindog.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.carousel-pro2-info {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 32vh;
+  font-size: 2vh;
+  height: 20vh;
+  width: 30vh;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.footer {
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(129, 102, 102);
+    position: absolute;
+    margin-top: 180vh;
+  }

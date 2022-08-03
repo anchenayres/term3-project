@@ -17,15 +17,32 @@ const Products = () => {
 
     </div>
 
-    <div className="carousel">
-        <div className="carousel-1"></div>
-        <div className="carousel-1-info">
+    <div className="latest1-block">Smart Collar</div>
+    <div className="latest2-block">Flat Collar</div>
+
+
+    <div className="carouselpro">
+        <div className="carousel-pro"></div>
+        <div className="carousel-pro-info">
             <h6>Smart Collar</h6>
             <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
         <button className="view-block"><a href="/Individual">View</a></button>
         <button className="stock-block">In Stock: 5</button>
         <button className="price-block">R1069.00</button>
     </div>
+
+    <div className="carouselpro2">
+        <div className="carousel-pro2"></div>
+        <div className="carousel-pro2-info">
+            <h6>Flat Collar</h6>
+            <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
+        <button className="view-block"><a href="/Individual">View</a></button>
+        <button className="stock-block">In Stock: 5</button>
+        <button className="price-block">R1069.00</button>
+    </div>
+
+    <div className="footer"></div>
+
 
     </>
     )
