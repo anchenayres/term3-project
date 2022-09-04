@@ -1,9 +1,16 @@
 const express = require('express');
+const products = require('./products')
 const mongoose = require('mongoose');
 const routes = require('./routes');
-const app = express();
 const cors = require('cors');
 require('dotenv/config');
+
+const app = express();
+
+// get all products
+app.get('/api/products', (req, res) => {
+    res.send(products);
+});
 
 app.use(cors({
     origin: 'http://localhost:3000'

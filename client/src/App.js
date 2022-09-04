@@ -29,9 +29,6 @@ function App() {
       </Routes>
     </div>
 
-    <div className="App">
-    
-    </div>
 
 
 
