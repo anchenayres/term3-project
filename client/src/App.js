@@ -7,12 +7,15 @@ import Cart from "./Components/Cart";
 import Checkout from "./Components/Checkout";
 
 
+
 import { Routes, Route } from "react-router-dom";
 
 
 
 function App() {
   return (
+
+    
     <>
     <div className="app">
       <Navigation />
@@ -23,11 +26,22 @@ function App() {
         <Route path="/Individual" element = {<Individual />} />
         <Route path="/Cart" element = {<Cart />} />
         <Route path="/Checkout" element = {<Checkout />} />
-
-
       </Routes>
     </div>
+
+    <div className="App">
+    
+    </div>
+
+
+
+
+
+
     </>
+
+
+
   );
 }
 
