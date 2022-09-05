@@ -65,7 +65,7 @@
 ## About the Project
 
 <!-- header image of project -->
-![image1](https://github.com/anchenayres/term3-project/blob/main/src/Images/home.png)
+![image1](https://github.com/anchenayres/term3-project/blob/main/client/src/Images/home.png)
 
 ### Project Description
 
@@ -117,7 +117,7 @@ Run the following in the command-line to install all the required dependencies:
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 ![image2](https://github.com/anchenayres/term3-project/blob/main/client/src/Images/home3.png)
 
-### See all the available appointments in the appointments page! 
+### See all lastest and discounted products on this page! 
 
 This page showcases a slider with an introduction of the Web store COLLAR CITY. Beneath the introduction is a Latest Products section and a Discounted Products section which provides the user with information regarding that product. Each product has a unique name which is the name of the dog showcasing the product in the imagery, it makes it easier to differentiate between the products.
 
@@ -126,13 +126,13 @@ This page showcases a slider with an introduction of the Web store COLLAR CITY. 
 
 Description of Feature
 
-![image3](https://github.com/anchenayres/term3-project/blob/main/src/Images/products.png)
+![image3](https://github.com/anchenayres/term3-project/blob/main/client/src/Images/products.png)
 ### Feature 3
 
 These are all the products available on this web store. They are all divided into sections depending on what type of product it is such as a Flat Collar or a Smart Collar.  Each product has a unique name which is the name of the dog showcasing the product in the imagery, it makes it easier to differentiate between the products. There is also a small description of the product with the price, enlarged view and how many of those items are in stock.
 
 
-![image4](https://github.com/anchenayres/term3-project/blob/main/src/Images/individual.png)
+![image4](https://github.com/anchenayres/term3-project/blob/main/client/src/Images/individual.png)
 
 This page showcases the individual product selected in the View Button on the Products and Home Page. It will showcase an enlarged view with various angled imagery and a description. There is also a place to select the specific information needed for the user's purchases. You can add this item to the cart of simply proceed directly to the checkout. 
 
@@ -146,7 +146,7 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Ideation
 
-![image5](https://github.com/anchenayres/term3-project/blob/main/src/Images/inspo.png)
+![image5](https://github.com/anchenayres/term3-project/blob/main/client/src/Images/inspo.png)
 
 ### Wireframes
 
@@ -191,7 +191,7 @@ What aspects of this final build contribute to the `Above And Beyond` Component 
 
 ### Mockups
 
-![image6](https://github.com/anchenayres/term3-project/blob/main/src/Images/checkout.png)
+![image6](https://github.com/anchenayres/term3-project/blob/main/client/src/Images/checkout.png)
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
