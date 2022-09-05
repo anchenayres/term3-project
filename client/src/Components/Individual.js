@@ -16,13 +16,16 @@ const Individual = () => {
         <div className="cart"><a href="/Cart">Cart</a></div>
     </div>
 
-    <div className="welcome-image"></div>
+    <div className="welcome-image">Justin Collar | Silicone</div>
+    <div className="img4"></div>
+
 
     <div className="img1"></div>
     <div className="img2"></div>
     <div className="img3"></div>
     
-    <div className="product-des">Smart Collar | GPS Included <tr>R599.00</tr><tr>Size</tr>
+    <div className="product-des">Smart Collar | Multi-coloured  |  Silicone Collar | variety of colours all around the collar | playful 
+                | metal buckle | comes in a variety of colours GPS Included | Total Price: R599.00<br></br>Customise your order below:<tr>Size</tr>
     <select className="size-drop" name="selecting">
         <option>Select a Size</option>
         <option>XS</option>

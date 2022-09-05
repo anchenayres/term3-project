@@ -26,10 +26,10 @@ const Checkout = () => {
 
             <div className="list-blocks">
 
-                <p1>Flat Collar</p1>
-                <p1>Leather</p1>
-                <p1>Brown</p1>
-                <p1>XL</p1>
+                <p1>Smart Collar</p1>
+                <p1>Silicone</p1>
+                <p1>Multi-coloured</p1>
+                <p1>L</p1>
                 <p1>1</p1>
                 <p1>R449.00</p1>
 
@@ -43,6 +43,7 @@ const Checkout = () => {
         <div className="total-price">
                 <p1>Shipping Fee: R18.99</p1>
                 <p1>Total: R499.00</p1>
+                <p1>Subtotal: R517.99</p1>
 
         <div className="list-button2"><a href="/Checkout">Checkout</a></div>
         </div>

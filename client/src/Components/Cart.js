@@ -27,10 +27,10 @@ const Cart = () => {
 
             <div className="list-blocks">
 
-                <p1>Flat Collar</p1>
-                <p1>Leather</p1>
-                <p1>Brown</p1>
-                <p1>XL</p1>
+                <p1>Smart Collar</p1>
+                <p1>Silicone</p1>
+                <p1>Multi-colured</p1>
+                <p1>L</p1>
                 <p1>1</p1>
                 <p1>R449.00</p1>
 

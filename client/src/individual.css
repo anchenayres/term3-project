@@ -6,46 +6,77 @@ html, p, body {
 
 .welcome-image {
     height: 50vh;
-    width: 50%;
+    width: 50vh;
     margin-top: 10vh;
-    margin-left: 25%;
-    background-image: url("./Images/logindog.jpeg");
+    margin-left: 45vh;
+    background-color: rgb(232, 142, 142);
+    background-image: url("./Images/justin2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
+    border-radius: 5vh;
+    font-size: 3vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.img4 {
+    height: 50vh;
+    width: 50vh;
+    margin-top: 10vh;
+    margin-left: 100vh;
+    background-color: rgb(118, 56, 56);
+
+    background-image: url("./Images/justin.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 5vh;
+
 }
 
 .img1 {
     height: 30vh;
     width: 30vh;
-    background-color: rgb(246, 204, 204);
+    background-image: url("./Images/justin5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 65vh;
     margin-left: 45vh;
     position: absolute;
+    border-radius: 5vh;
+
 }
 
 .img2 {
     height: 30vh;
     width: 30vh;
-    background-color: rgb(246, 204, 204);
+    background-image: url("./Images/justin3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 65vh;
     margin-left: 83vh;
     position: absolute;
+    border-radius: 5vh;
+
 }
 
 .img3 {
     height: 30vh;
     width: 30vh;
-    background-color: rgb(246, 204, 204);
+    background-image: url("./Images/justin4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 65vh;
     margin-left: 120vh;
+    border-radius: 5vh;
     position: absolute;
 }
 
 .product-des {
     height: 60vh;
-    width: 58vh;
-    background-color: rgb(240, 219, 219);
+    width: 105vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     margin-top: 100vh;
     margin-left: 45vh;
@@ -56,7 +87,7 @@ html, p, body {
     width: 40vh;
     background-color: rgb(250, 238, 238);
     position: absolute;
-    margin-top: 100vh;
+    margin-top: 200vh;
     margin-left: 110vh;
 }
 
