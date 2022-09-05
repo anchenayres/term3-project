@@ -5,7 +5,10 @@
     position: absolute;
     margin-top: 30vh;
     margin-left: 18vh;
-    background-color: blueviolet;
+    border-radius: 5vh;
+    font-style: lighter;
+    background-color: rgb(190, 183, 174);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .login-image {
@@ -20,7 +23,7 @@
 .login-button {
     height: 4vh;
     width: 15vh;
-    background-color: rgb(251, 247, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 5vh;
     border-style: none;
     margin-left: 32vh;
@@ -30,7 +33,7 @@
 .fill1 {
     height: 4vh;
     width: 45vh;
-    background-color: rgb(224, 236, 143);
+    background-color: rgb(255, 255, 255);
     border-radius: 5vh;
     border-style: none;
     margin-left: 18vh;
@@ -41,7 +44,7 @@
 .fill2 {
     height: 4vh;
     width: 45vh;
-    background-color: rgb(237, 167, 248);
+    background-color: rgb(255, 255, 255);
     border-radius: 5vh;
     border-style: none;
     margin-left: 18vh;

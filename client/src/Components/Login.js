@@ -9,7 +9,7 @@ const Login = () => {
 
     <div className="main-block">
         <h1>Sign In</h1>
-        <h2>Welcome back message</h2>
+        <h2>Welcome back to Collar City! Enjoythe luxury of shopping for your pets comfort</h2>
         <h3>Email:</h3>
         <div className="fill1"></div>
         <h4>Password:</h4>
