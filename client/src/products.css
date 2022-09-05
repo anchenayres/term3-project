@@ -17,6 +17,8 @@
     width: 100%;
     text-align: center;
 }
+
+/* image */
 .carouselpro {
     color: rgb(0, 0, 0);
     position: absolute;
@@ -24,13 +26,115 @@
     font-size: 2vh;
     height: 30vh;
     width: 30vh;
-    margin-left: 10vh;
+    margin-left: 20vh;
+    border-radius: 5vh;
     background-color: blue;
-    background-image: url("./Images/logindog.jpeg");
+    background-image: url("./Images/jade.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carouselpro2 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 15vh;
+    font-size: 2vh;
+    height: 30vh;
+    width: 30vh;
+    margin-left: 60vh;
+    border-radius: 5vh;
+    background-color: blue;
+    background-image: url("./Images/callie.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carouselpro3 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 15vh;
+    font-size: 2vh;
+    height: 30vh;
+    width: 30vh;
+    margin-left: 100vh;
+    border-radius: 5vh;
+    background-color: blue;
+    background-image: url("./Images/opal.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carouselpro4 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 15vh;
+    font-size: 2vh;
+    height: 30vh;
+    width: 30vh;
+    margin-left: 140vh;
+    border-radius: 5vh;
+    background-color: blue;
+    background-image: url("./Images/justin.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carouselpro5 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 85vh;
+    font-size: 2vh;
+    height: 30vh;
+    width: 30vh;
+    margin-left: 20vh;
+    border-radius: 5vh;
+    background-color: blue;
+    background-image: url("./Images/lenny.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carouselpro6 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 85vh;
+    font-size: 2vh;
+    height: 30vh;
+    width: 30vh;
+    margin-left: 60vh;
+    border-radius: 5vh;
+    background-color: blue;
+    background-image: url("./Images/buddy.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carouselpro7 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 85vh;
+    font-size: 2vh;
+    height: 30vh;
+    width: 30vh;
+    margin-left: 100vh;
+    border-radius: 5vh;
+    background-color: blue;
+    background-image: url("./Images/johnny.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carouselpro8 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 85vh;
+    font-size: 2vh;
+    height: 30vh;
+    width: 30vh;
+    margin-left: 140vh;
+    border-radius: 5vh;
+    background-color: blue;
+    background-image: url("./Images/suzy.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
+  /* end image */
+
+/* description */
 .carousel-pro-info {
   color: rgb(0, 0, 0);
   position: absolute;
@@ -38,44 +142,340 @@
   font-size: 2vh;
   height: 20vh;
   width: 30vh;
-  background-color: rgb(255, 255, 255);
+  border-radius: 3vh;
+  background-color: rgb(253, 253, 253);
   text-align: center;
 }
-  .carousel-1-info {
-    color: rgb(0, 0, 0);
-    position: absolute;
-    margin-top: 32vh;
-    font-size: 2vh;
-    height: 30vh;
-    width: 30vh;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-  }
-
-  .carouselpro2 {
-    color: rgb(0, 0, 0);
-    position: absolute;
-    margin-top: 85vh;
-    font-size: 2vh;
-    height: 30vh;
-    width: 30vh;
-    margin-left: 10vh;
-    background-color: blue;
-    background-image: url("./Images/logindog.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-.carousel-pro2-info {
+.carousel-pro-info2 {
   color: rgb(0, 0, 0);
   position: absolute;
   margin-top: 32vh;
   font-size: 2vh;
   height: 20vh;
   width: 30vh;
-  background-color: rgb(255, 255, 255);
+  border-radius: 3vh;
+  background-color: rgb(253, 253, 253);
   text-align: center;
 }
+.carousel-pro-info3 {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 32vh;
+  font-size: 2vh;
+  height: 20vh;
+  width: 30vh;
+  border-radius: 3vh;
+  background-color: rgb(253, 253, 253);
+  text-align: center;
+}
+.carousel-pro-info4 {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 32vh;
+  font-size: 2vh;
+  height: 20vh;
+  width: 30vh;
+  border-radius: 3vh;
+  background-color: rgb(253, 253, 253);
+  text-align: center;
+}
+.carousel-pro-info5 {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 32vh;
+  font-size: 2vh;
+  height: 20vh;
+  width: 30vh;
+  border-radius: 3vh;
+  background-color: rgb(253, 253, 253);
+  text-align: center;
+}
+.carousel-pro-info6 {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 32vh;
+  font-size: 2vh;
+  height: 20vh;
+  width: 30vh;
+  border-radius: 3vh;
+  background-color: rgb(253, 253, 253);
+  text-align: center;
+}
+.carousel-pro-info7 {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 32vh;
+  font-size: 2vh;
+  height: 20vh;
+  width: 30vh;
+  border-radius: 3vh;
+  background-color: rgb(253, 253, 253);
+  text-align: center;
+}
+.carousel-pro-info8 {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 32vh;
+  font-size: 2vh;
+  height: 20vh;
+  width: 30vh;
+  border-radius: 3vh;
+  background-color: rgb(253, 253, 253);
+  text-align: center;
+}
+/* end description */ 
+
+
+/* stock button */ 
+.stock-block {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 18vh;
+  margin-top: 41vh;
+  position: absolute;
+}
+.stock-block2 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 41vh;
+  position: absolute;
+}
+.stock-block3 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 41vh;
+  position: absolute;
+}
+.stock-block4 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 41vh;
+  position: absolute;
+}
+.stock-block5 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 18vh;
+  margin-top: 41vh;
+  position: absolute;
+}
+.stock-block6 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 41vh;
+  position: absolute;
+}
+.stock-block7 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 41vh;
+  position: absolute;
+}
+.stock-block8 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 41vh;
+  position: absolute;
+}
+/* end stock button */ 
+
+/* price button */ 
+.price-block {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 18vh;
+  margin-top: 37vh;
+  position: absolute;
+}
+.price-block2 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 37vh;
+  position: absolute;
+}
+.price-block3 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 37vh;
+  position: absolute;
+}
+.price-block4 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 37vh;
+  position: absolute;
+}
+.price-block5 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 18vh;
+  margin-top: 37vh;
+  position: absolute;
+}
+.price-block6 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 37vh;
+  position: absolute;
+}
+.price-block7 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 37vh;
+  position: absolute;
+}
+.price-block8 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 37vh;
+  position: absolute;
+}
+/* end price button */ 
+
+/* view button */ 
+.view-block {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 18vh;
+  margin-top: 45vh;
+  position: absolute;
+}
+.view-block2 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 45vh;
+  position: absolute;
+}
+.view-block3 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 45vh;
+  position: absolute;
+}
+.view-block4 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 45vh;
+  position: absolute;
+}
+
+.view-block5 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 18vh;
+  margin-top: 45vh;
+  position: absolute;
+}
+.view-block6 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 45vh;
+  position: absolute;
+}
+.view-block7 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 45vh;
+  position: absolute;
+}
+.view-block8 {
+  height: 3vh;
+  width: 10vh;
+  background-color: rgba(222, 209, 186, 0.429);
+  border-radius: 5vh;
+  border-style: none;
+  margin-left: 20vh;
+  margin-top: 45vh;
+  position: absolute;
+}
+
+/* end view button */ 
 
 .footer {
     height: 5vh;
