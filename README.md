@@ -115,7 +115,7 @@ Run the following in the command-line to install all the required dependencies:
 ## Features and Functionality
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
-![image2](https://github.com/anchenayres/term3-project/blob/main/src/Images/home3.png)
+![image2](https://github.com/anchenayres/term3-project/blob/client/src/Images/home3.png)
 
 ### See all the available appointments in the appointments page! 
 
