@@ -16,7 +16,7 @@
 <p align="center">
 
   <a href="https://github.com/anchenayres/term3-project.git">
-    <img src="/src/Images/logo.png" width="200" height="200" border-radius="50%">
+    <img src="/client/src/Images/logo.png" width="200" height="200" border-radius="50%">
   </a>
   
   <h3 align="center">Collar City</h3>
@@ -124,17 +124,17 @@ This page showcases a slider with an introduction of the Web store COLLAR CITY. 
 
 ### Feature 2
 
-Description of Feature
+These are all the products available on this web store. They are all divided into sections depending on what type of product it is such as a Flat Collar or a Smart Collar.  Each product has a unique name which is the name of the dog showcasing the product in the imagery, it makes it easier to differentiate between the products. There is also a small description of the product with the price, enlarged view and how many of those items are in stock.
 
 ![image3](https://github.com/anchenayres/term3-project/blob/main/client/src/Images/products.png)
 ### Feature 3
 
-These are all the products available on this web store. They are all divided into sections depending on what type of product it is such as a Flat Collar or a Smart Collar.  Each product has a unique name which is the name of the dog showcasing the product in the imagery, it makes it easier to differentiate between the products. There is also a small description of the product with the price, enlarged view and how many of those items are in stock.
+This page showcases the individual product selected in the View Button on the Products and Home Page. It will showcase an enlarged view with various angled imagery and a description. There is also a place to select the specific information needed for the user's purchases. You can add this item to the cart of simply proceed directly to the checkout. 
 
 
 ![image4](https://github.com/anchenayres/term3-project/blob/main/client/src/Images/individual.png)
 
-This page showcases the individual product selected in the View Button on the Products and Home Page. It will showcase an enlarged view with various angled imagery and a description. There is also a place to select the specific information needed for the user's purchases. You can add this item to the cart of simply proceed directly to the checkout. 
+
 
 
 <!-- CONCEPT PROCESS -->
@@ -146,7 +146,7 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Ideation
 
-![image5](https://github.com/anchenayres/term3-project/blob/main/client/src/Images/inspo.png)
+![image5](https://github.com/anchenayres/term3-project/blob/main/client/src/Images/inspo.jpeg)
 
 ### Wireframes
 
@@ -184,7 +184,6 @@ What aspects of this final build contribute to the `Above And Beyond` Component 
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
 * I would focus on my time management and spreading out my work load throughout the term instead of stressing about functionalities not working as they should last minute
-*  
 
 <!-- MOCKUPS -->
 ## Final Outcome
