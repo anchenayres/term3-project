@@ -12,17 +12,16 @@ const clientSchema = mongoose.Schema({
     }
 });
 
-clientSchema.pre('save', async function(next){
+clientSchema.pre('save', async function (next) {
     try {
         const salt = await bcrypt.genSalt(10);
         const hashPass = await bcrypt.hash(this.password, salt);
         this.password = hashPass;
         next();
-        
+
     } catch (error) {
         next(error);
     }
-
 });
 
-module.exports = mongoose.model('users', addUser);
+module.exports = mongoose.model('users', clientSchema);

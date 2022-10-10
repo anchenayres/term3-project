@@ -1,11 +1,11 @@
 const express = require('express');
-const productSchema = require('./models/product')
+// const productSchema = require('./models/product')
 
 const router = express(); //can be called anything, not just router
 
-const productSchema = require('./models/products');
-const orderSchema = require('./models/orders');
-const clientSchema = require('./models/clients');
+const productSchema = require('./models/product'); 
+// const orderSchema = require('./models/orders');
+const clientSchema = require('./models/addUsers');
 
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
