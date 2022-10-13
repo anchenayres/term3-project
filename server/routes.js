@@ -57,11 +57,32 @@ router.post('/api/verifytoken', async (req,res) =>{
     }
 });
 
+router.post('/api/newProduct', (req, res) => {
+    const newProduct = new newProductModel ({
+        name: req.body.name,
+        stock: req.body.stock,
+        price: req.body.price,
+        availStock: {
+            size: req.body.availStock.size,
+            quantity: req.availStock.body.quantity,
+            material: req.body.availStock.material,
+            colour: req.body.availStock.colour
+        },
+        description: req.body.description
+    })
 
+    newProduct.save()
+    .then(item => {
+        res.json(item);
+    })
+    .catch(err => {
+        res.status(400).json({msg: "There is an error with the new product", err});
+    })
+});
 
-
-
-
+router.get('/api/allProducts', async (req, res) => {
+    const findProducts = await newProductModel.find();
+});
 
 
 

@@ -38,7 +38,7 @@ const productSchema = mongoose.Schema ({
         type: String,
         required: true,
     }   
-})
+});
 
 module.exports = mongoose.model('product', productSchema); // ADD products orders users (no schema in users)
 

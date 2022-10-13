@@ -102,25 +102,6 @@ const Products = () => {
         <button className="stock-block8">In Stock: 3</button>
         <button className="price-block8">R350.00</button>
         </div>
-        {/* <div className="carouselpro2">
-        <div className="carousel-pro2"></div>
-        <div className="carousel-pro2-info">
-            <h6>Smart Collar</h6>
-            <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
-        <button className="view-block2"><a href="/Individual">View</a></button>
-        <button className="stock-block2">In Stock: 5</button>
-        <button className="price-block2">R1069.00</button>
-        </div>
-
-    <div className="carouselpro3">
-        <div className="carousel-pro3"></div>
-        <div className="carousel-pro3-info">
-            <h6>Flat Collar</h6>
-            <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
-        <button className="view-block3"><a href="/Individual">View</a></button>
-        <button className="stock-block3">In Stock: 5</button>
-        <button className="price-block3">R1069.00</button>
-    </div> */}
 
 
 

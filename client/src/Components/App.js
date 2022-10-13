@@ -1,10 +1,10 @@
-import Navigation from "./Components/Navigation";
-import Login from "./Components/Login";
-import Home from "./Components/Home";
-import Products from "./Components/Products";
-import Individual from "./Components/Individual";
-import Cart from "./Components/Cart";
-import Checkout from "./Components/Checkout";
+import Navigation from "./Navigation";
+import Login from "./Login";
+import Home from "./Home";
+import Products from "./Products";
+import Individual from "./Individual";
+import Cart from "./Cart";
+import Checkout from "./Checkout";
 
 
 
