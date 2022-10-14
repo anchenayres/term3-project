@@ -1,7 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './Components/App';
+import './index.css';
+import './login.css';
+import './individual.css';
+import './cart.css';
+import './checkout.css';
+import './products.css';
+
 import {BrowserRouter} from 'react-router-dom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
