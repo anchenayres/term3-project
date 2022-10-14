@@ -29,9 +29,9 @@ app.listen(PORT, ()=>{console.log(`Server started on Port: ${PORT}`)});
 
 
 // get all products
-// app.get('/api/products', (req, res) => {
-//     res.send(products);
-// });
+app.get('/api/products', (req, res) => {
+    res.send(products);
+});
 
 
 

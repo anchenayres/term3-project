@@ -80,10 +80,45 @@ router.post('/api/newProduct', (req, res) => {
     })
 });
 
+//all products
 router.get('/api/allProducts', async (req, res) => {
     const findProducts = await newProductModel.find();
+    res.json(findProducts)
 });
 
+//one product
+router.get('/api/oneProduct/:id', async (req, res) => {
+    const findProduct = await newProductModel.findById(req.params.id);
+    res.json(findProduct)
+});
 
+//update product
+router.get('/api/updateProduct/:id', async (req, res) => {
+    console.log(req.body);
+    let stock = +req.body.varOne + +req.body.varTwo + +req.body.varThree + +req.body.varFour
+
+    const findProduct = await newProductModel.updateOne (
+        {_id: req.params.id},
+        {$set: {
+            name: req.body.name,
+            stock: req.body.stock,
+            price: req.body.price,
+            availStock: {
+                size: req.body.varOne,
+                quantity: req.body.varTwo,
+                material: req.body.varThree,
+                colour: req.body.varFour
+            },
+            description: req.body.description
+        }}
+    );
+    res.json(findProduct);
+});
+
+//delete a product
+router.delete('/api/deleteProduct/:id', async (req, res) => {
+    const findProduct = await newProductModel.remove({_id: req.params.id});
+    res.json(findProduct);
+});
 
 module.exports = router;
