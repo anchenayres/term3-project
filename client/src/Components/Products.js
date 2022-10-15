@@ -1,7 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from 'react'
+import axios from 'axios'; 
+import SingleProduct from "./SingleProduct"
 
 const Products = () => {
 
+
+    
+  const [products, setProducts] = useState([]);
+
+
+    useEffect(() => {
+        axios.get('http://localhost:5002/api/allProducts/')
+        .then(res => {
+            let data = res.data[0];
+            console.log(data)
+            setProducts(data)
+      });
+
+    }, []);
+
+    // const [components, setComponents] = useState();
+
+    // useEffect(()=>{
+    //     const render = studentNames.map((item) => <LightComp key={item} name={item} />);
+    //     setComponents(render);
+    // },[]);
 
 
     return (
@@ -18,22 +41,22 @@ const Products = () => {
 
     </div>
 
-    <div className="latest1-block">Smart Collar</div>
-    <div className="latest2-block">Flat Collar</div>
+    {/* <div className="latest1-block">Smart Collar</div>
+    <div className="latest2-block">Flat Collar</div> */}
+    
     
 
+        <div className="carouselpro">
+        
+        {/* <div className="carousel-pro"></div> */}
+        
+        {/* {component} */}
 
-    <div className="carouselpro">
-        <div className="carousel-pro"></div>
-        <div className="carousel-pro-info">
-            <h6>Jade Collar</h6>
-            <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
-        <button className="view-block"><a href="/Individual">View</a></button>
-        <button className="stock-block">In Stock: 5</button>
-        <button className="price-block">R1069.00</button>
+
+        <SingleProduct key={products._id} productName={products.productName} description={products.description}></SingleProduct>
         </div>
 
-        <div className="carouselpro2">
+        {/* <div className="carouselpro2">
         <div className="carousel-pro2"></div>
         <div className="carousel-pro-info2">
             <h6>Callie Collar</h6>
@@ -100,8 +123,8 @@ const Products = () => {
             <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
         <button className="view-block8"><a href="/Individual">View</a></button>
         <button className="stock-block8">In Stock: 3</button>
-        <button className="price-block8">R350.00</button>
-        </div>
+        <button className="price-block8">R350.00</button> */}
+        {/* </div> */}
 
 
 

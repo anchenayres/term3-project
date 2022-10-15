@@ -58,17 +58,18 @@ router.post('/api/verifytoken', async (req,res) =>{
 });
 
 router.post('/api/newProduct', (req, res) => {
-    const newProduct = new newProductModel ({
-        name: req.body.name,
-        stock: req.body.stock,
-        price: req.body.price,
+    const newProduct = new productSchema ({
+        productName: req.body.productName,
+        inStock: req.body.inStock,
         availStock: {
             size: req.body.availStock.size,
-            quantity: req.availStock.body.quantity,
+            qty: req.body.availStock.qty,
             material: req.body.availStock.material,
             colour: req.body.availStock.colour
         },
+        cost: req.body.cost,
         description: req.body.description
+
     })
 
     newProduct.save()
@@ -82,7 +83,8 @@ router.post('/api/newProduct', (req, res) => {
 
 //all products
 router.get('/api/allProducts', async (req, res) => {
-    const findProducts = await newProductModel.find();
+    const findProducts = await productSchema.find();
+    console.log(findProducts)
     res.json(findProducts)
 });
 
