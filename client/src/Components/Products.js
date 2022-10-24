@@ -22,7 +22,7 @@ const Products = () => {
     // const [components, setComponents] = useState();
 
     // useEffect(()=>{
-    //     const render = studentNames.map((item) => <LightComp key={item} name={item} />);
+    //     const render = SingleProduct.map((item) => <SingleProduct key={item} productName={item} />);
     //     setComponents(render);
     // },[]);
 
@@ -50,10 +50,17 @@ const Products = () => {
         
         {/* <div className="carousel-pro"></div> */}
         
-        {/* {component} */}
+        {/* {components} */}
 
 
-        <SingleProduct key={products._id} productName={products.productName} description={products.description}></SingleProduct>
+        <SingleProduct
+        key={products._id} 
+        productName={products.productName} 
+        description={products.description} 
+        inStock={products.inStock} 
+        cost={products.cost}>
+        </SingleProduct>
+
         </div>
 
         {/* <div className="carouselpro2">

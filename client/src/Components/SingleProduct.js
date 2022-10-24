@@ -3,7 +3,7 @@ import React from 'react'
 
 const SingleProduct = (props) => {
     
-    // console.log(props)
+    console.log(props)
 
     return (
         <div>
@@ -18,4 +18,4 @@ const SingleProduct = (props) => {
     )
 }
 
-export default SingleProduct
+export default SingleProduct;

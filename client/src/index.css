@@ -101,6 +101,7 @@ h2 {
 
 h5 {
   color: rgb(0, 0, 0);
+  background-color: red;
   font-weight: lighter;
   width: 15vh;
   text-align:justify;
@@ -112,6 +113,7 @@ h5 {
 
 h6 {
   color: rgb(0, 0, 0);
+  background-color: blue;
   font-weight: lighter;
   width: 15vh;
   text-align:justify;
