@@ -10,21 +10,33 @@ const Products = () => {
 
 
     useEffect(() => {
-        axios.get('http://localhost:5002/api/allProducts/')
+        axios.get('http://localhost:5002/api/allProducts')
         .then(res => {
-            let data = res.data[0];
+            let data = res.data;
             console.log(data)
             setProducts(data)
       });
 
     }, []);
 
-    // const [components, setComponents] = useState();
+    const [components, setComponents] = useState();
 
-    // useEffect(()=>{
-    //     const render = SingleProduct.map((item) => <SingleProduct key={item} productName={item} />);
-    //     setComponents(render);
-    // },[]);
+    useEffect(()=>{
+        const render = products.map((item) =>
+        
+
+        <SingleProduct
+        key={item._id} 
+        productName={item.productName} 
+        description={item.description} 
+        inStock={item.inStock} 
+        cost={item.cost}>
+        </SingleProduct>
+        
+        
+        );
+        setComponents(render);
+    },[products]);
 
 
     return (
@@ -50,16 +62,10 @@ const Products = () => {
         
         {/* <div className="carousel-pro"></div> */}
         
-        {/* {components} */}
+        {components}
 
 
-        <SingleProduct
-        key={products._id} 
-        productName={products.productName} 
-        description={products.description} 
-        inStock={products.inStock} 
-        cost={products.cost}>
-        </SingleProduct>
+        
 
         </div>
 
