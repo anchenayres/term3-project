@@ -11,8 +11,8 @@ const SingleProduct = (props) => {
             <h6>{props.productName}</h6>
             <h5>{props.description}</h5>
             <button className="view-block"><a href="/Individual">View</a></button>
-            <button className="stock-block">In Stock: {props.inStock}</button>
-            <button className="price-block">R{props.cost}</button>
+            <button className="stock">In Stock: {props.inStock}</button>
+            <button className="price">R{props.cost}</button>
         </div>
         </div>
     )

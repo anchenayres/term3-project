@@ -62,8 +62,9 @@ const Products = () => {
         
         {/* <div className="carousel-pro"></div> */}
         
-        {components}
+       {components}
 
+        
 
         
 
