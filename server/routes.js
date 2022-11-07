@@ -5,14 +5,16 @@ const router = express(); //can be called anything, not just router
 
 const productSchema = require('./models/product'); 
 // const orderSchema = require('./models/orders');
-const clientSchema = require('./models/addUsers');
 
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
+const addUser = require('./models/addUser');
 
+// NEW USER
 router.post('/api/addclient', (req, res) =>{
-   const newUser = new clientSchema({
-        username: req.body.username, 
+
+   const newUser = new addUser({
+        email: req.body.email, 
         password: req.body.password 
     }); 
     newUser.save()
@@ -26,17 +28,17 @@ router.post('/api/addclient', (req, res) =>{
 
 router.post('/api/loginuser', async (req,res) => {
     const findUser = await clientSchema.findOne({
-        username: req.body.username
+        email: req.body.email
     });
     if(findUser){
         if(await bcrypt.compare(req.body.password, findUser.password)){
             const userToken = jwt.sign({
-                username: req.body.username
+                email: req.body.email
             }, '883Xc7F@1dkK') 
 
-            return res.json({status: "Ok", user: userToken});
+            return res.json({status: "Ok", email: userToken});
         }else{
-            res.json({user: false})
+            res.json({email: false})
         }
     }else{
         res.json({msg: "User not found"})
@@ -47,7 +49,7 @@ router.post('/api/loginuser', async (req,res) => {
 router.post('/api/verifytoken', async (req,res) =>{
     const token = req.body.token;
     const decode = jwt.verify(token, '883Xc7F@1dkK');
-    const findUser = await clientSchema.findOne({
+    const findUser = await addUser.findOne({
         username: decode.username
     });
     if(findUser){
