@@ -10,7 +10,6 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const addUser = require('./models/addUser');
 const product = require('./models/product');
-const userSchema = require('./models/userSchema');
 
 // NEW USER
 router.post('/api/addclient', (req, res) =>{
@@ -29,7 +28,7 @@ router.post('/api/addclient', (req, res) =>{
 });
 
 router.post('/api/loginuser', async (req,res) => {
-    const findUser = await userSchema.findOne({
+    const findUser = await clientSchema.findOne({
         email: req.body.email
     });
     if(findUser){

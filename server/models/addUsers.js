@@ -1,9 +1,7 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
-const validator = require('validator')
-const jwt = require('jsonwebtoken');
 
-const users = mongoose.Schema({
+const clientSchema = mongoose.Schema({
     username:{
         type: String,
         required: true
@@ -14,7 +12,7 @@ const users = mongoose.Schema({
     }
 });
 
-users.pre('save', async function (next) {
+clientSchema.pre('save', async function (next) {
     try {
         const salt = await bcrypt.genSalt(10);
         const hashPass = await bcrypt.hash(this.password, salt);
@@ -26,4 +24,4 @@ users.pre('save', async function (next) {
     }
 });
 
-module.exports = mongoose.model('users', users);
+module.exports = mongoose.model('users', clientSchema);
