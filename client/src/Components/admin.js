@@ -45,11 +45,11 @@ const addUser = (e) => {
         <h1>Add A New User</h1>
         <form onSubmit={addUser}>
             
-            <TextField required name="name" label="First Name" fullWidth margin="dense" onChange={getValues} />
+            {/* <TextField required name="name" label="First Name" fullWidth margin="dense" onChange={getValues} />
             <TextField required name="last" label="Last Name" fullWidth margin="dense" onChange={getValues}/>
             <TextField required name="email" label="Email" fullWidth margin="dense" onChange={getValues}/>
             <TextField required name="username" label="Username" fullWidth margin="dense" onChange={getValues} />
-            <Button type="submit" style={{marginTop: "8px", height: "55px"}} fullWidth variant="contained">Add New User</Button>
+            <Button type="submit" style={{marginTop: "8px", height: "55px"}} fullWidth variant="contained">Add New User</Button> */}
         </form>
         </div>
   );

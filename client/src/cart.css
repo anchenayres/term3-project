@@ -5,7 +5,14 @@
     font-size: 20px;
 
 }
-
+form {
+    margin-top: 100vh;
+    position: absolute;
+}
+.button {
+    margin-top: 110vh;
+    position: absolute;
+}
 .list {
     height: 50vh;
     width: 115vh;

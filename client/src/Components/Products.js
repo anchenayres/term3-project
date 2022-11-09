@@ -2,11 +2,54 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'; 
 import SingleProduct from "./SingleProduct"
 
+
 const Products = () => {
 
-
+    // const [productName, setProductName] = useState();
+    // const [productPrice, setProductPrice] = useState();
+    // const [productDes, setProductDes] = useState();
+    // const [productStock, setProductStock] = useState();
+  
+    // const getName = (e) => {
+    //   let value = e.target.value;
+    //   setProductName(value);
+    // }
+    // const getPrice = (e) => {
+    //   let value = e.target.value;
+    //   setProductPrice(value);
+    // }
+    // const getDes = (e) => {
+    //   let value = e.target.value;
+    //   setProductDes(value);
+    // }
+    // const getStock = (e) => {
+    //   let value = e.target.value;
+    //   setProductStock(value);
+    // }
+  
+    
     
   const [products, setProducts] = useState([]);
+
+//   const getName = (e) => {
+//     let value = e.target.value;
+//     setProductName(value);
+//   }
+
+//  const addProduct = (e) => {
+//     const newProduct = new productSchema ({
+//         name: productName,
+//         price: productPrice,
+//         availStock: {
+//             size: req.body.availStock.size,
+//             qty: req.body.availStock.qty,
+//             material: req.body.availStock.material,
+//             colour: req.body.availStock.colour
+//         },
+//         cost: productPrice,
+//         description: productDes
+
+//     })
 
 
     useEffect(() => {
@@ -48,97 +91,30 @@ const Products = () => {
         <div className="products"><a href="/Products">Products</a></div>
         <div className="login"><a href="/">Sign In</a></div>
         <div className="cart"><a href="/Cart">Cart</a></div>
-
-
-
     </div>
 
-    {/* <div className="latest1-block">Smart Collar</div>
-    <div className="latest2-block">Flat Collar</div> */}
-    
+        <form>
+            <label>
+                <input type="text" id="productName" label="Enter Name" placeholder="Enter your Name" />
+            </label>
+            <label>
+            <input type="text" id="cost" label="Product Price" placeholder="Product Price" />
+            </label>
+            <label>
+            <input type="text" id="description" label="Product Description" placeholder="Product Description" />
+            </label>
+            <label>
+            <input type="text" id="inStock" label="Stock" placeholder="In Stock" />
+            </label>
+        </form>
+        
+        <button className="button">Update</button>
     
 
         <div className="carouselpro">
-        
-        {/* <div className="carousel-pro"></div> */}
-        
-       {components}
-
-        
-
-        
-
+            {components}
         </div>
 
-        {/* <div className="carouselpro2">
-        <div className="carousel-pro2"></div>
-        <div className="carousel-pro-info2">
-            <h6>Callie Collar</h6>
-            <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
-        <button className="view-block2"><a href="/Individual">View</a></button>
-        <button className="stock-block2">In Stock: 6</button>
-        <button className="price-block2">R875.00</button>
-        </div>
-
-        <div className="carouselpro3">
-        <div className="carousel-pro3"></div>
-        <div className="carousel-pro-info3">
-            <h6>Opal Collar</h6>
-            <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
-        <button className="view-block3"><a href="/Individual">View</a></button>
-        <button className="stock-block3">In Stock: 1</button>
-        <button className="price-block3">R699.00</button>
-        </div>
-
-        <div className="carouselpro4">
-        <div className="carousel-pro4"></div>
-        <div className="carousel-pro-info4">
-            <h6>Justin Collar</h6>
-            <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
-        <button className="view-block4"><a href="/Individual">View</a></button>
-        <button className="stock-block4">In Stock: 3</button>
-        <button className="price-block4">R599.00</button>
-        </div>
-        
-        <div className="carouselpro5">
-        <div className="carousel-pro5"></div>
-        <div className="carousel-pro-info5">
-            <h6>Lenny Collar</h6>
-            <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
-        <button className="view-block5"><a href="/Individual">View</a></button>
-        <button className="stock-block5">In Stock: 5</button>
-        <button className="price-block5">R850.00</button>
-        </div>
-
-        <div className="carouselpro6">
-        <div className="carousel-pro6"></div>
-        <div className="carousel-pro-info6">
-            <h6>Buddy Collar</h6>
-            <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
-        <button className="view-block6"><a href="/Individual">View</a></button>
-        <button className="stock-block6">In Stock: 6</button>
-        <button className="price-block6">R1569.00</button>
-        </div>
-
-        <div className="carouselpro7">
-        <div className="carousel-pro7"></div>
-        <div className="carousel-pro-info7">
-            <h6>Johnny Collar</h6>
-            <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
-        <button className="view-block7"><a href="/Individual">View</a></button>
-        <button className="stock-block7">In Stock: 1</button>
-        <button className="price-block7">R456.00</button>
-        </div>
-
-        <div className="carouselpro8">
-        <div className="carousel-pro8"></div>
-        <div className="carousel-pro-info8">
-            <h6>Suzy Collar</h6>
-            <h5>Not only is this a stylish collar but you can track your dog's exact location with the built in GPS device.</h5></div>
-        <button className="view-block8"><a href="/Individual">View</a></button>
-        <button className="stock-block8">In Stock: 3</button>
-        <button className="price-block8">R350.00</button> */}
-        {/* </div> */}
 
 
 

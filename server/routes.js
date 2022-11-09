@@ -9,6 +9,7 @@ const productSchema = require('./models/product');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const addUser = require('./models/addUser');
+const product = require('./models/product');
 
 // NEW USER
 router.post('/api/addclient', (req, res) =>{
@@ -97,11 +98,11 @@ router.get('/api/oneProduct/:id', async (req, res) => {
 });
 
 //update product
-router.get('/api/updateProduct/:id', async (req, res) => {
+router.patch('/api/updateProduct/:id', async (req, res) => {
     console.log(req.body);
     let stock = +req.body.varOne + +req.body.varTwo + +req.body.varThree + +req.body.varFour
 
-    const findProduct = await newProductModel.updateOne (
+    const updProduct = await productSchema.updateOne (
         {_id: req.params.id},
         {$set: {
             name: req.body.name,
@@ -116,13 +117,13 @@ router.get('/api/updateProduct/:id', async (req, res) => {
             description: req.body.description
         }}
     );
-    res.json(findProduct);
+    res.json(updProduct);
 });
 
 //delete a product
 router.delete('/api/deleteProduct/:id', async (req, res) => {
-    const findProduct = await newProductModel.remove({_id: req.params.id});
-    res.json(findProduct);
+    const delProduct = await newProductModel.remove({_id: req.params.id});
+    res.json(delProduct);
 });
 
 module.exports = router;

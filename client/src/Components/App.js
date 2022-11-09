@@ -5,15 +5,12 @@ import Products from "./Products";
 import Individual from "./Individual";
 import Cart from "./Cart";
 import Checkout from "./Checkout";
-
-
-
 import { Routes, Route } from "react-router-dom";
 
 
 
 function App() {
-  return (
+  return (  
 
     
     <>
