@@ -90,7 +90,14 @@ p20 {
   position: absolute;
 }
 
-
+h2 {
+  margin-left: 18vh;
+  font-size: 20px;
+  margin-top: 10vh;
+  position: absolute;
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+}
 
 h5 {
   color: rgb(0, 0, 0);

@@ -37,8 +37,7 @@
     border-radius: 5vh;
     border-style: none;
     margin-left: 18vh;
-    margin-top: -80vh;
-    padding-left: 2vh;
+    margin-top: 20.5vh;
     position: absolute;
 }
 
@@ -49,8 +48,7 @@
     border-radius: 5vh;
     border-style: none;
     margin-left: 18vh;
-    margin-top: -70vh;
-    padding-left: 2vh;
+    margin-top: 32vh;
     position: absolute;
 }
 
@@ -58,20 +56,9 @@ h1 {
     margin-left: 33vh;
     font-size: 4.5vh;
     position: absolute;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
-h2 {
-    font-size: 20px;
-    padding-left: 5vh;
-    padding-right: 5vh;
-    margin-top: 10vh;
-    position: absolute;
-    color: rgb(0, 0, 0);
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    text-align: center;
-  }
+
 
 h3 {
     margin-left: 18vh;
